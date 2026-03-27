@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lootnip Content Publisher</title>
+  <style>
+    :root {
+      --bg: #f5f1e8;
+      --panel: #fffdf8;
+      --text: #1f1d1a;
+      --muted: #5f594f;
+      --line: #ddd3c3;
+      --accent: #1c7c54;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: linear-gradient(180deg, #efe7d8 0%, var(--bg) 45%, #f8f4ec 100%);
+      color: var(--text);
+    }
+    main {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 48px 20px 64px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 18px 50px rgba(31, 29, 26, 0.08);
+    }
+    h1, h2 { margin-top: 0; }
+    h1 {
+      font-size: 2.2rem;
+      line-height: 1.1;
+      margin-bottom: 12px;
+    }
+    p, li {
+      font-size: 1rem;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+    ul { padding-left: 20px; }
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: #e7f3ed;
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+    .links a {
+      text-decoration: none;
+      color: var(--text);
+      border: 1px solid var(--line);
+      background: white;
+      padding: 12px 16px;
+      border-radius: 12px;
+    }
+    .links a:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <div class="eyebrow">Lootnip</div>
+      <h1>Lootnip Content Publisher</h1>
+      <p>
+        Lootnip Content Publisher is a creator-focused publishing tool for preparing and posting
+        short-form video content across social platforms. The service is designed to support
+        upload preparation, creator-controlled publishing, and related workflow automation.
+      </p>
+      <h2>Current Use</h2>
+      <p>
+        This site is currently used as the public app website for platform review and developer
+        verification flows related to content publishing integrations.
+      </p>
+      <h2>Contact</h2>
+      <p>
+        For app-related questions, support, or review follow-up, please contact the Lootnip team
+        through the repository owner account.
+      </p>
+      <div class="links">
+        <a href="./terms.html">Terms of Service</a>
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="https://github.com/lootnip/lootnip-content-publisher">GitHub Repository</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
